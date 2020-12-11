@@ -1,4 +1,4 @@
-# Trabalho-Pr-tico-2
+# Trabalho-Prático-2
 Sistema de Recomendação
 
 Integrantes: Alexandre Rosendo, Iure Max.
