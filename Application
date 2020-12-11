@@ -1,0 +1,10 @@
+import io
+import pandas as pd
+from google.colab import files
+uploaded = files.upload()
+df2 = pd.read_csv(io.BytesIO(uploaded['ratings.csv']))
+# print(df2)
+a = int(input("Qual id do usuário?"))
+print("Esse usuário recomenda os filmes: ")
+print()
+df2[(df2.userId == a) & (df2.rating >= 4.0)]
